@@ -4,7 +4,7 @@ import plotly.express as px
 
 # -------------------------- 1. 数据读取函数 --------------------------
 def get_dataframe_from_excel():
-    file_path = "C:\\Users\\712\\Desktop\\（商场销售数据）supermarket_sales.xlsx"
+    file_path = "（商场销售数据）supermarket_sales.xlsx"
     try:
         df = pd.read_excel(
             file_path,
